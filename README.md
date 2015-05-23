@@ -1,0 +1,7 @@
+Pannote
+=======
+
+License
+-------
+
+GPLv3
