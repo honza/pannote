@@ -4,8 +4,24 @@ Pannote
 Installation
 ------------
 
+### OSX
+
 ```
 $ brew install xapian --with-python
+$ pip install pannote
+```
+
+### Fedora
+
+```
+$ dnf install xapian-bindings-python
+$ pip install pannote
+```
+
+### Ubuntu/Debian
+
+```
+$ apt-get install python-xapian
 $ pip install pannote
 ```
 
