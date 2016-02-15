@@ -4,7 +4,7 @@ long_desc = open('README.md').read()
 
 setup(
     name='pannote',
-    version='0.1.0',
+    version='0.2.0',
     url='https://github.com/honza/pannote',
     install_requires=[
         'click'
