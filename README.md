@@ -1,30 +1,6 @@
 Pannote
 =======
 
-Installation
-------------
-
-### OSX
-
-```
-$ brew install xapian --with-python
-$ pip install pannote
-```
-
-### Fedora
-
-```
-$ dnf install xapian-bindings-python
-$ pip install pannote
-```
-
-### Ubuntu/Debian
-
-```
-$ apt-get install python-xapian
-$ pip install pannote
-```
-
 Usage
 -----
 
@@ -51,6 +27,30 @@ Pannote works really well with Facebook's [PathPicker][1].
 
 ```
 $ pannote /path/to/notes "isomorphic" | fpp
+```
+
+Installation
+------------
+
+### OSX
+
+```
+$ brew install xapian --with-python
+$ pip install pannote
+```
+
+### Fedora
+
+```
+$ dnf install xapian-bindings-python
+$ pip install pannote
+```
+
+### Ubuntu/Debian
+
+```
+$ apt-get install python-xapian
+$ pip install pannote
 ```
 
 [1]: https://github.com/facebook/pathpicker/
